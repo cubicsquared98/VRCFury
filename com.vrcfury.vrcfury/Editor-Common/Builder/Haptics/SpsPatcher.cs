@@ -403,6 +403,8 @@ namespace VF.Builder.Haptics {
             AddParamIfMissing("TANGENT", "spsTangent", "float4");
             AddParamIfMissing("SV_VertexID", "spsVertexId", "uint");
             AddParamIfMissing("COLOR", "spsColor", "float4");
+            AddParamIfMissing("BLENDINDICES", "spsBlendIndices", "int4");
+            AddParamIfMissing("BLENDWEIGHTS", "spsBlendWeights", "float4");
 
             var newBody = new List<string>();
             
